@@ -15,6 +15,14 @@ module.exports = {
                 use: 'ts-loader',
                 exclude: /node_modules/,
             },
+            {
+                use: ['style-loader', 'css-loader'],
+                test: /\.css$/i
+            },
+            {
+                type: "asset/resource",
+                test: /\.(jpg|jpeg|png|woff|woff2|ttf|svg)$/
+            }
         ],
     },
     plugins: [

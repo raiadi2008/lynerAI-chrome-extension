@@ -1,0 +1,57 @@
+/* 
+
+primary-color: #2745f2 -- 10%
+light-primary-color: #8e9ded
+secondary-color: #2C3333 -- 30%
+tertiary-color: #FBFBFB -- 60%
+
+*/
+
+// reset styles
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.secondary-button {
+  display: inline-block;
+  color: #2745f2;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-right: 32px;
+  line-height: 1.5;
+  padding-bottom: 6px;
+  font-size: 14px;
+}
+
+.active {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.inactive {
+  color: #8e9ded !important;
+}
+
+.popup-panel {
+  height: 600px;
+  width: 350px;
+  padding: 8px 8px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.panel-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
