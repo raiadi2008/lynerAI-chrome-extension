@@ -1,6 +1,6 @@
 import React from "react"
 
-import { SecondaryButtonInterface } from "../../types/popup_types"
+import { SecondaryButtonInterface } from "../../../types/popup_types"
 
 export const SecondaryButton: React.FC<SecondaryButtonInterface> = ({
   button_name,
