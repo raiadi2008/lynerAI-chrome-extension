@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "lyner AI",
+    "version": "1.0.0",
+    "version_name": "1.0.0 beta",
+    "description": "Brainstorm your ideas with lyner AI. Copy relevent text from any website and lyner will save it for you. Use it to genrate new articles micro blogs. Integrated ChatGPT to help you write faster.",
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
