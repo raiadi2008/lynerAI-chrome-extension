@@ -1,6 +1,6 @@
 import React from "react"
-import { SecondaryButton } from "./secondary_button"
-import { Avatar } from "./avatar"
+import { SecondaryButton } from "../buttons/secondary_button"
+import { Avatar } from "../avatar/avatar"
 
 export const PanelTopbar: React.FC = () => {
   return (
