@@ -1,8 +1,8 @@
 import React from "react"
 
-import { SecondaryButtonInterface } from "../../../types/popup_types"
+import { PrimaryLinkButtonInterface } from "../../../types/popup_types"
 
-export const SecondaryButton: React.FC<SecondaryButtonInterface> = ({
+const PrimaryLinkButton: React.FC<PrimaryLinkButtonInterface> = ({
   button_name,
   is_active,
 }) => {
@@ -20,3 +20,5 @@ export const SecondaryButton: React.FC<SecondaryButtonInterface> = ({
     )
   }
 }
+
+export default PrimaryLinkButton

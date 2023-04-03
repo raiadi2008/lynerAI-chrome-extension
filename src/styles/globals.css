@@ -67,3 +67,38 @@ a {
   padding: 0 16px;
   color: #2c3333;
 }
+
+.popup-panel-active-project {
+  margin-top: 24px;
+}
+
+.project-card {
+  padding: 12px 16px;
+  border: 1px solid #8d8f8f;
+  border-radius: 8px;
+  color: #2c3333;
+}
+
+.project-card-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.project-card-description {
+  font-size: 12px;
+  margin-bottom: 12px;
+  color: #8d8f8f;
+}
+
+.project-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-card-meta-info {
+  color: #2c3333;
+  font-size: 12px;
+  font-weight: 400;
+}
