@@ -8,13 +8,13 @@ const PrimaryLinkButton: React.FC<PrimaryLinkButtonInterface> = ({
 }) => {
   if (is_active)
     return (
-      <a href='#' className='secondary-button active'>
+      <a href='#' className='primary-link-button active'>
         {button_name}
       </a>
     )
   else {
     return (
-      <a href='#' className='secondary-button inactive'>
+      <a href='#' className='primary-link-button inactive'>
         {button_name}
       </a>
     )

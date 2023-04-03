@@ -9,3 +9,7 @@ export interface ProjectCardInterface {
   created_at: string
   created_by: string
 }
+
+export interface ButtonInterface {
+  button_name: string
+}

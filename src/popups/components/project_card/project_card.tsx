@@ -15,6 +15,7 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({
         <div className='project-card-meta-info'>{created_at}</div>
         <div className='project-card-meta-info'>{created_by}</div>
       </div>
+      <div className='project-card-buttons'></div>
     </div>
   )
 }
